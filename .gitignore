@@ -1,0 +1,20 @@
+# Игнорирование файлов в папке client
+client/node_modules/
+client/dist/
+client/.env
+
+# Игнорирование файлов в папке server
+server/node_modules/
+server/dist/
+server/.env
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+
+# Прочее
+*.bak
+*.swp
